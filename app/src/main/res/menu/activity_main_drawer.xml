@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prelevement"
+            android:icon="@drawable/medical_result"
+            android:title="Prelevement" />
+        <item
+            android:id="@+id/nav_transport"
+            android:icon="@drawable/ambulance"
+            android:title="Transport" />
+        <item
+            android:id="@+id/nav_alert"
+            android:icon="@drawable/alarm"
+            android:title="Alert" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Parametres" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Partager" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Envoyer" />
+        </menu>
+    </item>
+
+</menu>
